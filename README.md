@@ -1,0 +1,1 @@
+1) twitter-client project is consuming twitter api and displays last 100 tweets posted by Elsevier News. Further the tweets are displayed over a dashbaord build using Spring Thymeleaf, bootstrap, jQuery. Dashboard can be search with a input field.
