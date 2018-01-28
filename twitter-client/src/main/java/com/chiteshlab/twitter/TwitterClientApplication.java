@@ -6,6 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * Spring Boot application
+ * 
+ * @author chitesh
+ *
+ */
 @SpringBootApplication
 @ComponentScan(basePackages="com.chiteshlab.twitter")
 @EnableConfigurationProperties

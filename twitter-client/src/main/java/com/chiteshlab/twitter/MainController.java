@@ -6,6 +6,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 
+/**
+ * Controller 
+ * @author chitesh
+ *
+ */
 @Controller
 public class MainController {
 
@@ -15,7 +20,6 @@ public class MainController {
 
 	@GetMapping("/v1/tweets")
 	public String getTest(ModelMap modelMap) {
-	
 		modelMap.put("obj", invoker.getAllTweets());
 		return "twitter";
 	}

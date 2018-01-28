@@ -76,7 +76,7 @@ $(document).ready(function(){
     <th style="width:10%;">Created At</th>
   </tr>
   <tr th:each="data : ${obj}">
-    		<td th:text="${data.text}"></td>
+    		<td th:text="${data.twitterMessage}"></td>
     		<td th:text="${data.fromUser}"></td>
     		<td th:text="${data.createdAt}"></td>
   		</tr>
